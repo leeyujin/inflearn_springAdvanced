@@ -12,7 +12,7 @@ import java.lang.reflect.Proxy;
 @Configuration
 public class DynamicProxyFilterConfig {
 
-    private static final String[] PATTERNS = {"reqeust*", "order*", "save*"};
+    private static final String[] PATTERNS = {"request*", "order*", "save*"};
 
     @Bean
     public OrderControllerV1 orderController(LogTrace logTrace){
